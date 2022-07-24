@@ -1,0 +1,330 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    margin: 3.125rem auto 0 auto;
+    color:  #66BFBF;
+}
+
+@media (min-width:768px) {
+    h1 {
+        font-size: 5.625rem;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:  #66BFBF;
+    font-weight: normal;
+    padding-bottom: 0.625rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+/* a {
+    color: #11999E;
+    margin: 10px 20px;
+} */
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #e4f9f5 0.375rem;
+    border-bottom: none;
+    width: 4%;
+    margin: 4rem auto;
+}
+
+.navbar {
+    background-color: #e4f9f5;
+    /* background-color: white; */
+}
+
+.nav-item {
+    padding-right: 3rem;
+}
+
+#navbarTogglerDemo02 {
+    margin-top: 0.5rem;
+}
+
+.big-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+  }
+
+.card-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-body {
+    text-align: left;
+    padding-bottom: 3rem;
+}
+
+.card-img-top {
+    width: 9.5rem;
+    height: 9.5rem;
+}
+
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.top_container {
+    background-color: #e4f9f5;
+}
+
+.colored-section {
+    background-color: #00b4d8;
+  }
+
+
+.bottom-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #66bfbf;
+    margin-top: 20px;
+}
+
+.mount_img {
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    .top_cloud {
+        display: none;
+    }
+
+    .bottom_cloud {
+        display: none;
+    }
+
+    .skill_box_md {
+        display: none;
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+    }
+
+    container-fluid {
+        width: 100%;
+    }
+
+    .mount_img {
+        width: 50%;
+    }
+
+    .profile-pic {
+        width: 70%;
+    }
+
+    .skill_box {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .card {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        border: 0px;
+    }
+
+    /* .project_box {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 4rem;
+    } */
+
+    /* .project_pic {
+        width: 50%;
+        margin-bottom: 2rem;
+    } */
+
+}
+
+@media (min-width: 992px) {
+    .skill_box_sm {
+        display: none;
+    }
+    
+    .skill_box {
+        padding-bottom: 3rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
+@media ((max-width: 991px) and (min-width: 768px)) {
+    .card {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+
+.project_box {
+    padding: 4.5%;
+}
+
+.mount_img {
+    width: 100%;
+}
+
+
+.project_pic {
+    height: 9.375rem;
+    width: 9.375rem;
+    /* margin-top: 4rem; */
+    margin-bottom: 2rem;
+}
+
+.profile {
+    margin-top: 3.125rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+.profile-pic {
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-bottom: 2rem;
+}
+
+.skill_text {
+    text-align: left;
+}
+
+
+.pic_left {
+    height: 9.375rem;
+    width: 9.375rem;
+    margin-left: 0;
+    margin-right: 5rem;
+}
+
+.pic_right {
+    height: 9.375rem;
+    width: 9.375rem;
+    margin-right: 0;
+    margin-left: 5rem;
+}
+
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: auto;
+}
+
+#navigation {
+    padding-bottom: 2rem;
+}
+
+
+/* .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  } */
+
+
+#prog {
+    font-size: 1.5rem;
+}
+
+.mid_row {
+    padding-bottom: 3rem;
+}
+
+#top_row {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.skill_pic {
+    height: 9.375rem;
+    width: 9.375rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: 0px;
+}
+
+.project_title {
+    padding-bottom: 4rem;
+}
+
+.project-btn {
+    position: absolute;
+    bottom: 0.75rem;
+}
+
+#skills {
+    padding-bottom: 3rem;
+}
+
+#arduino-pic {
+    width: 9.375rem;
+    margin-left: 0;
+    margin-right: 5rem;
+}
+
+.social-icon {
+    margin-left: 1rem;
+}
